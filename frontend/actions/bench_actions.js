@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 export const BenchConstants = {
   RECEIVE_BENCHES: "RECEIVE_BENCHES",
   REQUEST_BENCHES: "REQUEST_BENCHES"
