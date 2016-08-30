@@ -4,7 +4,7 @@ import BenchIndexItem from './bench_index_item';
 
 class BenchIndex extends React.Component{
   componentDidMount() {
-    this.props.requestBenches();
+    // this.props.requestBenches();
   }
 
   render() {
@@ -12,7 +12,7 @@ class BenchIndex extends React.Component{
       <ul>
         {
           Object.keys(this.props.benches).map( ben => (
-           <BenchIndexItem key={this.props.benches[ben].id} bench={this.props.benches[ben]} />
+           < BenchIndexItem key={this.props.benches[ben].id} bench={this.props.benches[ben]} />
         ))
       }
       </ul>
